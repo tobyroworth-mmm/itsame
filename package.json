@@ -1,0 +1,23 @@
+{
+  "name": "itsame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build && cp src/index.html dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobyroworth-mmm/itsame.git"
+  },
+  "author": "Toby Roworth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobyroworth-mmm/itsame/issues"
+  },
+  "homepage": "https://github.com/tobyroworth-mmm/itsame#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

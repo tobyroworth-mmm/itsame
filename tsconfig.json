@@ -1,0 +1,21 @@
+{
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+      "allowJs": false,
+      "declaration": true,
+      "rootDir": "src",
+      "outDir": "dist",
+      "declarationMap": true,
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "lib": [
+        "DOM",
+        "DOM.Iterable",
+        "ESNext"
+      ],
+      "noImplicitOverride": true,
+      "verbatimModuleSyntax": true,
+    }
+  }
